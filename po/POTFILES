@@ -1,0 +1,6 @@
+data/uk.cetera.Catay.desktop.in
+data/uk.cetera.Catay.appdata.xml.in
+data/uk.cetera.Catay.gschema.xml
+src/main.vala
+src/window.vala
+src/window.ui

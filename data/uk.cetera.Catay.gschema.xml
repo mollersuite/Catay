@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<schemalist gettext-domain="catay">
+	<schema id="uk.cetera.Catay" path="/uk/cetera/Catay/">
+	</schema>
+</schemalist>

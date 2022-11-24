@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<interface>
+  <requires lib="gtk" version="4.0"/>
+  <template class="CatayWindow" parent="AdwPreferencesWindow">
+    <property name="title">Catay</property>
+    <property name="modal">false</property>
+    <property name="search-enabled">false</property>
+    <property name="icon-name">uk.cetera.Catay</property>
+    <property name="can-navigate-back">true</property>
+    <child>
+      <object class="AdwPreferencesPage">
+        <child>
+          <object class="AdwPreferencesGroup">
+            <child>
+               <object class="GtkButton" id="about">
+            <child>
+              <object class="AdwButtonContent">
+              <property name="icon-name">about-symbolic</property>
+            <property name="label">About Catay</property>
+            </object>
+            </child>
+            <property name="valign">start</property>
+            <property name="halign">center</property>
+            <style>
+              <class name="flat"/>
+            </style>
+          </object>
+            </child>
+          </object>
+        </child>
+        <child>
+          <object class="AdwPreferencesGroup">
+            <property name="title">App</property>
+            <child type="header-suffix">
+              <object class="GtkButton">
+                <child>
+                  <object class="AdwButtonContent">
+                    <property name="icon-name">package-x-generic-symbolic</property>
+                    <property name="label">Install Roblox</property>
+                    <property name="valign">center</property>
+                  </object>
+                </child>
+              </object>
+            </child>
+            <child>
+              <object class="AdwActionRow">
+                <property name="title">FPS Unlocker</property>
+                <property name="subtitle">Remove the 60 FPS cap.</property>
+                <property name="tooltip-text">This might get patched by Hyperion, Roblox's upcoming anticheat.</property>
+                <child type="prefix">
+                  <object class="GtkImage">
+                    <property name="icon-name">speedometer2-symbolic</property>
+                  </object>
+                </child>
+                <child type="suffix">
+                  <object class="GtkSwitch">
+                    <property name="valign">center</property>
+                  </object>
+                </child>
+              </object>
+            </child>
+            <child>
+              <object class="AdwActionRow" id="fflags_app">
+                <property name="title">Edit FFlags</property>
+                <property name="subtitle">Change advanced Roblox settings.</property>
+                <property name="activatable">true</property>
+                <child type="prefix">
+                  <object class="GtkImage">
+                    <property name="icon-name">flag-filled-symbolic</property>
+                  </object>
+                </child>
+                <child type="suffix">
+                  <object class="GtkImage">
+                    <property name="icon-name">go-next-symbolic</property>
+                  </object>
+                </child>
+              </object>
+            </child>
+            <child>
+              <object class="AdwActionRow">
+                <property name="title">Open in Files</property>
+                <property name="activatable">true</property>
+                <child type="prefix">
+                  <object class="GtkImage">
+                    <property name="icon-name">file-manager-symbolic</property>
+                  </object>
+                </child>
+                <child type="suffix">
+                  <object class="GtkImage">
+                    <property name="icon-name">arrow-into-box-symbolic</property>
+                  </object>
+                </child>
+              </object>
+            </child>
+          </object>
+        </child>
+        <child>
+          <object class="AdwPreferencesGroup">
+            <property name="title">Studio</property>
+            <child type="header-suffix">
+              <object class="GtkButton">
+                <child>
+                  <object class="AdwButtonContent">
+                    <property name="icon-name">package-x-generic-symbolic</property>
+                    <property name="label">Install Studio</property>
+                    <property name="valign">center</property>
+                  </object>
+                </child>
+              </object>
+            </child>
+            <child>
+              <object class="AdwActionRow">
+                <property name="title">FPS Unlocker</property>
+                <property name="subtitle">Remove the 60 FPS cap.</property>
+                <child type="prefix">
+                  <object class="GtkImage">
+                    <property name="icon-name">speedometer2-symbolic</property>
+                  </object>
+                </child>
+                <child type="suffix">
+                  <object class="GtkSwitch">
+                    <property name="valign">center</property>
+                  </object>
+                </child>
+              </object>
+            </child>
+            <child>
+              <object class="AdwActionRow">
+                <property name="title">Edit FFlags</property>
+                <property name="subtitle">Change advanced Roblox settings.</property>
+                <property name="activatable">true</property>
+                <child type="prefix">
+                  <object class="GtkImage">
+                    <property name="icon-name">flag-filled-symbolic</property>
+                  </object>
+                </child>
+                <child type="suffix">
+                  <object class="GtkImage">
+                    <property name="icon-name">go-next-symbolic</property>
+                  </object>
+                </child>
+              </object>
+            </child>
+            <child>
+              <object class="AdwActionRow">
+                <property name="title">Open in Files</property>
+                <property name="activatable">true</property>
+                <child type="prefix">
+                  <object class="GtkImage">
+                    <property name="icon-name">file-manager-symbolic</property>
+                  </object>
+                </child>
+                <child type="suffix">
+                  <object class="GtkImage">
+                    <property name="icon-name">arrow-into-box-symbolic</property>
+                  </object>
+                </child>
+              </object>
+            </child>
+            <child>
+              <object class="GtkLinkButton">
+                <property name="uri">https://roblox.com/login/return-to-studio</property>
+                <property name="label">Sign in to Studio</property>
+              </object>
+            </child>
+          </object>
+        </child>
+      </object>
+    </child>
+  </template>
+</interface>
+

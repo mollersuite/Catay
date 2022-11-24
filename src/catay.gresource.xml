@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gresources>
+  <gresource prefix="/uk/cetera/Catay">
+    <file preprocess="xml-stripblanks">window.ui</file>
+    <file preprocess="xml-stripblanks">FFlagEditor.ui</file>
+  </gresource>
+  <gresource prefix="/uk/cetera/Catay/icons/scalable/actions/">
+    <file alias="arrow-into-box-symbolic.svg" preprocess="xml-stripblanks">../data/icons/arrow-into-box-symbolic.svg</file>
+    <file alias="about-symbolic.svg" preprocess="xml-stripblanks">../data/icons/about-symbolic.svg</file>
+    <file alias="speedometer2-symbolic.svg" preprocess="xml-stripblanks">../data/icons/speedometer2-symbolic.svg</file>
+    <file alias="flag-filled-symbolic.svg" preprocess="xml-stripblanks">../data/icons/flag-filled-symbolic.svg</file>
+    <file alias="package-x-generic-symbolic.svg" preprocess="xml-stripblanks">../data/icons/package-x-generic-symbolic.svg</file>
+    <file alias="file-manager-symbolic.svg" preprocess="xml-stripblanks">../data/icons/file-manager-symbolic.svg</file>
+  </gresource>
+</gresources>

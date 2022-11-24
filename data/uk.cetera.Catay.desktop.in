@@ -1,0 +1,8 @@
+[Desktop Entry]
+Name=Catay
+Exec=catay
+Icon=uk.cetera.Catay
+Terminal=false
+Type=Application
+Categories=Game;
+StartupNotify=true

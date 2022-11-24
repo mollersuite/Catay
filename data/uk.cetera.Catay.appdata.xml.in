@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<component type="desktop-application">
+	<id>uk.cetera.Catay</id>
+  <launchable type="desktop-id">uk.cetera.Catay.desktop</launchable>
+  <name>Catay</name>
+  <developer_name>Etcetera Development</developer_name>
+  <url type="homepage">https://github.com/mollersuite/catay</url>
+	<url type="bugtracker">https://github.com/mollersuite/catay/issues</url>
+  <url type="contribute">https://github.com/mollersuite/catay/blob/main/CONTRIBUTING.md</url>
+  <url type="vcs-browser">https://github.com/mollersuite/catay</url>
+  <url type="contact">https://cetera.uk</url>
+  <summary>The superior Roblox wrapper.</summary>
+  	<categories>
+		<category>Game</category>
+  	<category>IDE</category>
+	</categories>
+  <keywords>
+    <keyword>roblox</keyword>
+  </keywords>
+  	<description>
+	  <p>No description</p>
+	</description>
+	<metadata_license>CC0-1.0</metadata_license>
+	<project_license>GPL-3.0-or-later</project_license>
+  	<content_rating type="oars-1.1">
+		<content_attribute id="violence-cartoon">moderate</content_attribute>
+		<content_attribute id="violence-fantasy">moderate</content_attribute>
+		<content_attribute id="social-chat">moderate</content_attribute>
+		<content_attribute id="social-info">moderate</content_attribute>
+		<content_attribute id="social-audio">moderate</content_attribute>
+		<content_attribute id="social-contacts">intense</content_attribute>
+		<content_attribute id="money-purchasing">intense</content_attribute>
+		<content_attribute id="money-advertising">intense</content_attribute>
+		<content_attribute id="money-gambling">moderate</content_attribute>
+	</content_rating>
+</component>
