@@ -29,6 +29,7 @@ namespace Catay {
 
         public Window (Gtk.Application app) {
             Object (application: app);
+
             about.clicked.connect (() => {
                 var about = new Adw.AboutWindow () {
                     transient_for = this,
@@ -47,8 +48,9 @@ namespace Catay {
             });
 
             fflags_app.activated.connect (() => {
-                this.present_subpage (new Catay.FFlagEditor ());
+              this.present_subpage (new Catay.FFlagEditor ());
             });
         }
     }
 }
+

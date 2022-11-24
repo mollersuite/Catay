@@ -1,0 +1,143 @@
+using Gtk 4.0;
+using Adw 1;
+
+template CatayWindow : Adw.PreferencesWindow {
+  default-width: 640;
+  default-height: 640;
+  title: "Catay";
+  search-enabled: false;
+
+Adw.PreferencesPage {
+Adw.PreferencesGroup {
+    Button about {
+    Adw.ButtonContent {
+        icon-name: "about-symbolic";
+        label: "About Catay";
+        halign: center;
+        }
+        styles["flat"]
+      }}
+    Adw.PreferencesGroup {
+      title: "App";
+
+      [header-suffix]
+      Button {
+        Adw.ButtonContent {
+          icon-name: "package-x-generic-symbolic";
+          label: "Install Roblox";
+          valign: center;
+        }
+      }
+
+      Adw.ActionRow {
+        title: "FPS Unlocker";
+        subtitle: "Remove the 60 FPS cap.";
+        tooltip-text: "This might get patched by Hyperion, Roblox\'s upcoming anticheat.";
+
+        [prefix]
+        Image {
+          icon-name: "speedometer2-symbolic";
+        }
+
+        [suffix]
+        Switch {
+          valign: center;
+        }
+      }
+
+      Adw.ActionRow fflags_app {
+        title: "Edit FFlags";
+        subtitle: "Change advanced Roblox settings.";
+        activatable: true;
+
+        [prefix]
+        Image {
+          icon-name: "flag-filled-symbolic";
+        }
+
+        [suffix]
+        Image {
+          icon-name: "go-next-symbolic";
+        }
+      }
+
+      Adw.ActionRow {
+        title: "Open in Files";
+        activatable: true;
+
+        [prefix]
+        Image {
+          icon-name: "file-manager-symbolic";
+        }
+
+        [suffix]
+        Image {
+          icon-name: "arrow-into-box-symbolic";
+        }
+      }
+    }
+
+    Adw.PreferencesGroup {
+      title: "Studio";
+
+      [header-suffix]
+      Button {
+        Adw.ButtonContent {
+          icon-name: "package-x-generic-symbolic";
+          label: "Install Studio";
+          valign: center;
+        }
+      }
+
+      Adw.ActionRow {
+        title: "FPS Unlocker";
+        subtitle: "Remove the 60 FPS cap.";
+
+        [prefix]
+        Image {
+          icon-name: "speedometer2-symbolic";
+        }
+
+        [suffix]
+        Switch {
+          valign: center;
+        }
+      }
+
+      Adw.ActionRow {
+        title: "Edit FFlags";
+        subtitle: "Change advanced Roblox settings.";
+        activatable: true;
+
+        [prefix]
+        Image {
+          icon-name: "flag-filled-symbolic";
+        }
+
+        [suffix]
+        Image {
+          icon-name: "go-next-symbolic";
+        }
+      }
+
+      Adw.ActionRow {
+        title: "Open in Files";
+        activatable: true;
+
+        [prefix]
+        Image {
+          icon-name: "file-manager-symbolic";
+        }
+
+        [suffix]
+        Image {
+          icon-name: "arrow-into-box-symbolic";
+        }
+      }
+
+      LinkButton {
+        uri: "https://roblox.com/login/return-to-studio";
+        label: "Sign in to Studio";
+      }
+    }
+  }}

@@ -19,6 +19,7 @@
  */
 
 namespace Catay {
+    [GtkTemplate (ui = "/uk/cetera/Catay/FFlagEditor.ui")]
     public class FFlagEditor : Gtk.Box {
     }
 }

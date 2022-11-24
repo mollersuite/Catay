@@ -1,0 +1,22 @@
+using Gtk 4.0;
+using Adw 1;
+
+template CatayFFlagEditor : Box {
+  orientation: vertical;
+
+  	Adw.HeaderBar {
+		title-widget: Adw.WindowTitle title {
+		  title: "FFlag Editor";
+		  subtitle: "Studio";
+		};
+
+		[start]
+		Gtk.Button {
+			valign: center;
+			icon-name: "go-previous-symbolic";
+			action-name: "win.show-main";
+		}
+	}
+
+
+}
